@@ -1,0 +1,99 @@
+* {
+
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #222;
+}
+
+.sub_title {
+    background: url('../images/bg7.png') no-repeat center 30%;
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: 'skill';
+    src: url('../font/skill.eot?63436890');
+    src: url('../font/skill.eot?63436890#iefix') format('embedded-opentype'),
+        url('../font/skill.woff?63436890') format('woff'),
+        url('../font/skill.ttf?63436890') format('truetype'),
+        url('../font/skill.svg?63436890#skill') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#skillContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.skill_text {
+    margin-bottom: 10px;
+}
+.skill_icon {
+    font-family: "skill";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+.skill_name {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.pro_per_container {
+    position: relative;
+    width: 240px;
+    height: 36px;
+    border-radius: 8px;
+    background: #666666;
+}
+.pro_per_inner {
+    position: relative;
+    width: 234px;
+    height: 30px;
+    border-radius: 6px;
+    background: #fff;
+    overflow: hidden;
+}
+.pro_per {
+    height: 30px;
+    border-radius: 0 6px 6px 0;
+}
+.content_holder {
+    height: 200vh;
+}
+.pro_per0 {
+    width: 95%;
+    background: #f1672c;
+}
+.pro_per1 {
+    width: 95%;
+    background: #30a9dc;
+}
+.pro_per2 {
+    width: 90%;
+    background: #f1bf26;
+}
+.pro_per3 {
+    width: 60%;
+    background: #62488a;
+}
+.pro_per4 {
+    width: 20%;
+    background: #8993be;
+}
+.pro_per5 {
+    width: 95%;
+    background: #75d0ff;
+}
+.pro_per6 {
+    width: 80%;
+    background: #ff9a00;
+}
+.pro_per7, .pro_per8 {
+    width: 100%;
+    background: rgba(200, 200, 200);
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: .75rem;
+}

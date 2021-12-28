@@ -1,0 +1,254 @@
+.sub_title{
+    background: url('../images/bg7.png') no-repeat center 30%;
+    background-size: cover;
+    
+}
+.about_comment{
+    font-size: 2.2rem;
+    font-weight: 300;
+    padding-bottom: 90px;
+    text-align: center;
+    word-break: keep-all;
+}
+.about_title{
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+.title_block::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    bottom: -20px;
+    background: #222;
+}
+.about_grid_container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.profile_content{
+    margin-bottom: 40px;
+}
+.profile_0{
+    border-radius: 12px;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    width: 300px;
+    max-height: 400px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    
+}
+.profile_1{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+.profile_1 li{
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.profile_2{
+    grid-row: 1 / 2;
+    grid-column: 3 / 5;
+}
+.about_text *{
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+.about_text .end_text{
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: -2rem;
+}
+
+@font-face {
+    font-family: 'skill';
+    src: url('../font/skill.eot?63436890');
+    src: url('../font/skill.eot?63436890#iefix') format('embedded-opentype'),
+        url('../font/skill.woff?63436890') format('woff'),
+        url('../font/skill.ttf?63436890') format('truetype'),
+        url('../font/skill.svg?63436890#skill') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#skillContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.skill_text {
+    margin-bottom: 10px;
+}
+.skill_icon {
+    font-family: "skill";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+.skill_name {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.pro_per_container {
+    position: relative;
+    width: 100%;
+    height: 36px;
+    border-radius: 8px;
+    background: #666666;
+}
+.pro_per_container > .pos_center{
+    width: calc(100% - 6px);
+}
+.pro_per_inner {
+    position: relative;
+    height: 30px;
+    border-radius: 6px;
+    background: #fff;
+    overflow: hidden;
+}
+.pro_per {
+    height: 30px;
+    border-radius: 0 6px 6px 0;
+}
+.content_holder {
+    height: 200vh;
+}
+.pro_per0 {
+    width: 95%;
+    background: rgba(241, 103, 44);
+}
+.pro_per1 {
+    width: 95%;
+    background: rgba(48, 169, 220);
+}
+.pro_per2 {
+    width: 90%;
+    background: rgba(241, 191, 38);
+}
+.pro_per3 {
+    width: 75%;
+    background: rgba(98, 72, 137);
+}
+.pro_per4 {
+    width: 25%;
+    background: rgba(137, 147, 190);
+}
+.pro_per5 {
+    width: 95%;
+    background: rgba(117, 208, 255);
+}
+.pro_per6 {
+    width: 80%;
+    background: rgba(255, 154, 0);
+}
+.pro_per7, .pro_per8 {
+    width: 100%;
+    background: rgba(200, 200, 200);
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: .75rem;
+}
+.pro_per_outer_container {
+    flex-basis: calc(50% - 10px);
+}
+.pro_per_outer_container .skill_text{transition: all ease .3s;}
+.pro_per0_container:hover .skill_text{text-shadow:1px 1px rgba(241, 103, 44), 2px 2px rgba(241, 103, 44),3px 3px rgba(241, 103, 44);}
+.pro_per1_container:hover .skill_text{text-shadow:1px 1px rgba(48, 169, 220), 2px 2px rgba(48, 169, 220),3px 3px rgba(48, 169, 220);}
+.pro_per2_container:hover .skill_text{text-shadow:1px 1px rgba(241, 191, 38), 2px 2px rgba(241, 191, 38),3px 3px rgba(241, 191, 38);}
+.pro_per3_container:hover .skill_text{text-shadow:1px 1px rgba(98, 72, 137), 2px 2px rgba(98, 72, 137),3px 3px rgba(98, 72, 137);}
+.pro_per4_container:hover .skill_text{text-shadow:1px 1px rgba(137, 147, 190), 2px 2px rgba(137, 147, 190),3px 3px rgba(137, 147, 190);}
+.pro_per5_container:hover .skill_text{text-shadow:1px 1px rgba(117, 208, 255), 2px 2px rgba(117, 208, 255),3px 3px rgba(117, 208, 255);}
+.pro_per6_container:hover .skill_text{text-shadow:1px 1px rgba(255, 154, 0), 2px 2px rgba(255, 154, 0),3px 3px rgba(255, 154, 0);}
+.pro_per7_container:hover .skill_text{text-shadow:1px 1px rgba(200, 200, 200), 2px 2px rgba(200, 200, 200),3px 3px rgba(200, 200, 200);}
+.pro_per8_container:hover .skill_text{text-shadow:1px 1px rgba(200, 200, 200), 2px 2px rgba(200, 200, 200),3px 3px rgba(200, 200, 200);}
+
+@media screen and (max-width: 1200px) {
+    .about_grid_container{
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .profile_0{
+        border-radius: 12px;
+        display: block;
+        object-fit: cover;
+        object-position: center center;
+        width: 300px;
+        max-height: 400px;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    .profile_1{
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+    .profile_1 li{
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+    .profile_2{
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about_grid_container{
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about_grid_container .skill_text{
+        text-align: left;
+    }
+    .title_block::after{
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #222;
+    }
+    .profile_0{
+        border-radius: 12px;
+        display: block;
+        object-fit: cover;
+        object-position: center center;
+        width: 300px;
+        max-height: 400px;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    .profile_image {
+        display: none;
+        margin: 0 auto;
+    }
+    .profile_1{
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    .profile_1 li{
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+    .profile_2{
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+    
+}
